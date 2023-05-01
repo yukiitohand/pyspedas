@@ -70,7 +70,7 @@ def mms_feeps_pad(bin_size=16.3636, probe='1', energy=[70, 600], level='l2', suf
     units_label = ''
     if data_units == 'intensity':
         units_label = '1/(cm^2-sr-s-keV)'
-    elif data_units == 'counts':
+    elif data_units == 'count_rate':
         units_label = '[counts/s]'
     
     if not isinstance(probe, str):
